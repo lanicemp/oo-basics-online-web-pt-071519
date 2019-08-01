@@ -11,6 +11,14 @@ class Shoe
     @brand 
   end 
   
+ def cobble 
+    puts "Your shoe is as good as new!"
+    @condition = "new"
+  end 
+  
+end  
+  
+  #I used the attribute accessor to shorten the code and not write the setter and getter information.  The code below is another way to input the properies into the class of shoe.  
   
   #def color=(color)
    # @color = color 
