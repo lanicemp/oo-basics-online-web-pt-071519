@@ -1,13 +1,16 @@
 # Make your shoe class here!
 class Shoe
   
-  def initialized(new)
-    @new = new  
+  attr_accessor :color 
+  
+  def initialized(brand)
+    @brand = brand  
   end 
   
   def brand 
     @brand 
   end 
+  
   
   
 end 
