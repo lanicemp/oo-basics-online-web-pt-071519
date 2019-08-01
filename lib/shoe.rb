@@ -43,8 +43,8 @@ class Shoe
     @condition 
   end 
   
-  def cobble 
-    puts ""
+ # def cobble 
+   # puts ""
   
   
 end 
